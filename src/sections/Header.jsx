@@ -1,5 +1,3 @@
-"use client";
-
 const Header = () => {
   return (
     <header className="bg-[#0A0427] text-white py-4 px-6 fixed top-0 w-full shadow-md z-50 ">

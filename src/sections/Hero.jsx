@@ -1,4 +1,3 @@
-"use client";
 import { logos } from "../constants/index.jsx";
 // import {
 //   BackgroundCircles,
