@@ -4,11 +4,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img
-            src="../public/images/logo.svg"
-            alt="BankUI Logo"
-            className="h-8"
-          />
+          <img src="/images/logo.svg" className="h-8" />
           <span className="text-3xl font-bold text-white">
             Bank <span className="text-[#8C3BFF]">UI</span>
           </span>
