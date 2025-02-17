@@ -54,7 +54,7 @@ const Download = () => {
               <div className="absolute inset-0">
                 <img
                   src="../images/14.svg"
-                  className="h-full w-full object-cover"
+                  className="h-80 w-full mt-20 object-cover"
                   alt="robot"
                 />
               </div>
