@@ -24,11 +24,7 @@ const Footer = () => {
       <footer className="w-full max-w-6xl mt-16 text-white flex flex-wrap justify-between items-start">
         <div className="flex flex-col items-start">
           <div className="flex items-center space-x-2">
-            <img
-              src="../public/images/logo.svg"
-              alt="BankUI Logo"
-              className="h-8"
-            />
+            <img src="/images/logo.svg" alt="BankUI Logo" className="h-8" />
             <h3 className="text-lg font-semibold">
               Bank <span className="text-[#8C3BFF]">UI</span>
             </h3>
