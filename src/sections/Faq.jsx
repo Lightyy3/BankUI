@@ -1,6 +1,3 @@
-// import { Element } from "react-scroll";
-// import { faq } from "../constants/index.jsx";
-// import FaqItem from "../components/FaqItem.jsx";
 import check from "../assets/svg/check.svg";
 import { collabContent, collabText } from "../constants";
 

@@ -88,7 +88,7 @@ const Model = () => {
       </Canvas>
 
       {/* Buttons Below the Card Model */}
-      <div className="absolute bottom-36 left-1/2 transform -translate-x-1/2 z-10 flex gap-4">
+      <div className="absolute bottom-6 md:bottom-12 xxl:bottom-36 left-1/2 transform -translate-x-1/2 z-10 flex gap-4">
         {" "}
         {/* Reduced bottom spacing to bring buttons closer */}
         <button

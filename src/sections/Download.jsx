@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-// import { Element } from "react-scroll";
-// import { links } from "../constants/index.jsx";
-// import { Marker } from "../components/Marker.jsx";
+
 import check from "../assets/svg/check.svg";
 import { brainwaveServices } from "../constants";
 
@@ -19,13 +17,12 @@ const Download = () => {
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
-                alt="Smartest AI"
+                className="w-full h-full object-cover md:object-right invisible md:visible"
                 src="../images/12.svg"
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
+            <div className="relative z-1 max-w-[17rem] mx-auto md:mx-0 md:ml-auto items-center">
               <h4 className="h4 mb-4">
                 {" "}
                 <span className="text-[#8C3BFF]">Smartest</span> AI
@@ -45,8 +42,6 @@ const Download = () => {
                 ))}
               </ul>
             </div>
-
-            {/* <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" /> */}
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
@@ -55,7 +50,6 @@ const Download = () => {
                 <img
                   src="../images/14.svg"
                   className="h-80 w-full mt-20 object-cover"
-                  alt="robot"
                 />
               </div>
 
@@ -66,8 +60,6 @@ const Download = () => {
                   photo editing feature. Try it now!
                 </p>
               </div>
-
-              {/* <PhotoChatMessage /> */}
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
@@ -85,7 +77,6 @@ const Download = () => {
                 <img
                   src="../images/13.svg"
                   className="w-80 h-80 object-cover"
-                  alt="Scary robot"
                 />
               </div>
             </div>
