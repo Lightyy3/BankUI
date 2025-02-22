@@ -1,16 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import check from "../assets/svg/check.svg";
-import { brainwaveServices } from "../constants";
+import { services } from "../constants";
 
 const Download = () => {
   return (
     <section>
       <div className="container">
         <h1 className="mb-24 text-4xl font-bold">
-          Brainwave unlocks the{" "}
-          <span className="text-[#8C3BFF]"> potential</span> of AI-powered
-          applications
+          BankUI unlocks the <span className="text-[#8C3BFF]">power</span> of
+          AI-driven financial solutions
         </h1>
 
         <div className="relative">
@@ -28,10 +27,11 @@ const Download = () => {
                 <span className="text-[#8C3BFF]">Smartest</span> AI
               </h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                BankUI empowers your fintech solutions with AI-driven automation
+                and real-time insights.
               </p>
               <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
+                {services.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
@@ -54,10 +54,10 @@ const Download = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">AI-powered Financial Tools</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  Leverage advanced AI to optimize your financial operations and
+                  boost decision-making. Start now!
                 </p>
               </div>
             </div>
@@ -65,11 +65,12 @@ const Download = () => {
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">
-                  Video <span className="text-[#8C3BFF]">generator</span>{" "}
+                  AI-driven{" "}
+                  <span className="text-[#8C3BFF]">Financial Insights</span>
                 </h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  Unlock powerful AI-driven analytics to optimize your financial
+                  strategies. What will you achieve?
                 </p>
               </div>
 

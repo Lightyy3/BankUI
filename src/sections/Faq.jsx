@@ -6,8 +6,8 @@ const Faq = () => {
     <div className="container lg:flex mt-72">
       <div className="max-w-[25rem]">
         <h2 className="h2 mb-4 md:mb-8">
-          AI Chat App for <span className="text-[#8C3BFF]"> seamless</span>{" "}
-          collaboration
+          AI-powered solutions for{" "}
+          <span className="text-[#8C3BFF]">financial</span> collaboration
         </h2>
 
         <ul className="max-w-[22rem] mb-10 md:mb-14">

@@ -6,17 +6,18 @@ const Footer = () => {
       {/* Hero Section */}
       <div className="bg-#A78BFA text-white w-full max-w-5xl  p-12 text-center ">
         <h2 className="text-3xl font-semibold text-white">
-          Find the <span className="text-[#8C3BFF]"> perfect asset</span> from
-          the world
+          Discover the{" "}
+          <span className="text-[#8C3BFF]">perfect financial solution</span> for
+          your business
         </h2>
         <p className="mt-3 opacity-80 max-w-xl mx-auto">
-          More than 700 people around the world support the work of thousands of
-          digital creatives, all united behind a set of core values that put our
-          creative community first.
+          Join thousands of global fintech leaders who trust BankUI to drive
+          smarter, data-driven decisions and scalable financial growth.
         </p>
         <button className="mt-6 inline-block uppercase px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md  hover:bg-[#8C3BFF] hover:text-white z-20 transition">
-          Go to Market
+          Explore Solutions
         </button>
+
         {/* <div className="absolute bottom-6 right-10 text-white text-3xl">↗</div> */}
       </div>
 
@@ -30,8 +31,8 @@ const Footer = () => {
             </h3>
           </div>
           <p className="text-sm mt-2 opacity-80 max-w-xs mx-auto md:mx-0">
-            Market design is the process of designing markets to achieve
-            specific goals.
+            Revolutionizing financial management with intuitive tools and
+            real-time insights.
           </p>
         </div>
 
@@ -39,15 +40,15 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h4 className="font-semibold">Company</h4>
             <ul className="mt-2 space-y-1 text-sm opacity-80">
-              <li>Featured Product</li>
-              <li>UI Kits</li>
+              <li>Our Solutions</li>
+              <li>API Integrations</li>
               <li>Careers</li>
             </ul>
           </div>
           <div className="text-center md:text-left">
-            <h4 className="font-semibold">Link</h4>
+            <h4 className="font-semibold">Resources</h4>
             <ul className="mt-2 space-y-1 text-sm opacity-80">
-              <li>All-Access Pass</li>
+              <li>Developer Portal</li>
               <li>Terms & Conditions</li>
               <li>FAQs</li>
             </ul>
@@ -60,8 +61,8 @@ const Footer = () => {
                 placeholder="Enter your email address"
                 className="px-4 py-2 border text-black border-gray-300 rounded-l-full text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
-              <button className="text-[#8C3BFF] px-4 py-2 rounded-r-full text-sm hover:bg-purple-600 border-2 border-[#8C3BFF]">
-                SUBMIT
+              <button className="text-[#8C3BFF] px-4 py-2 rounded-r-full text-sm hover:bg-purple-200 border-2 border-[#8C3BFF]">
+                SUBSCRIBE
               </button>
             </div>
           </div>

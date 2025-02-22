@@ -8,10 +8,10 @@ const Testimonials = () => {
     <section className="relative z-2 py-24 md:py-28 lg:py-40  bg-[#0A0427]">
       <div className="container block lg:flex">
         <div className=" relative z-2 mr-20 flex-300 ">
-          <p className="small-2 mb-5 uppercase text-white   max-md:mb-2.5 ">
-            Wall of Love
+          <p className="small-2 mb-5 uppercase text-white max-md:mb-2.5">
+            Trusted by Industry Leaders
           </p>
-          <h3 className="h3 max-md:h5  text-[#8C3BFF]">Words from our fans</h3>
+          <h3 className="h3 max-md:h5 text-[#8C3BFF]">What Our Clients Say</h3>
         </div>
 
         <div className="testimonials_inner-after testimonials_inner-before relative -my-12 -mr-3 flex items-start max-lg:static max-md:block">

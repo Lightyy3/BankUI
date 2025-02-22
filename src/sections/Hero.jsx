@@ -15,8 +15,8 @@ const Hero = () => {
       <div className="flex items-center justify-center h-screen bg-[#0A0427] relative text-white text-center">
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
           <h1 className="text-4xl md:text-5xl font-semibold">
-            Market design to <span className="text-[#8C3BFF]"> combat</span>{" "}
-            <br /> climate change
+            Financial <span className="text-[#8C3BFF]"> Solutions</span> <br />{" "}
+            Engineered to Tackle Climate Change.
           </h1>
           <button
             className="inline-block mt-8 px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md transition hover:bg-[#8C3BFF] hover:text-white z-20"
@@ -63,13 +63,14 @@ const Hero = () => {
               <img src="/images/arrow.svg" width={100} height={100} />
             </h1>
             <p className="text-lg text-gray-300 mt-6 leading-relaxed">
-              Ship your fintech products to your customers with fast and
-              reliable processes.{" "}
+              Deliver your fintech products to customers with fast, reliable,
+              and seamless processes.{" "}
               <span className="font-semibold text-[#8C3BFF]">
-                Secure and highly customizable.{" "}
-              </span>
-              Rise Finance is the best partner for you if you want to scale your
-              finance products worldwide.
+                {" "}
+                Secure, highly customizable, and built for growth.{" "}
+              </span>{" "}
+              BankUI is the ideal partner to scale your financial products
+              globally.
             </p>
 
             {/* CTA Button */}

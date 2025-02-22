@@ -10,8 +10,8 @@ const Pricing = () => {
     <div className="overflow-hidden bg-[#0A0427] mt-24" id="pricing">
       <div className="container relative z-2">
         <h1 className="text-center text-2xl font-semibold text-white leading-tight md:text-4xl lg:text-5xl p-4 mb-24">
-          Get started with <span className="text-[#8C3BFF]">Brainwave</span> -
-          Pay once, use forever
+          Get started with <span className="text-[#8C3BFF]">BankUI</span> – One
+          payment, unlimited possibilities.
         </h1>
 
         <div className="relative mt-10">

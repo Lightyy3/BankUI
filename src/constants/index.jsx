@@ -30,34 +30,36 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    description: "Core financial tools, basic insights, and no-cost access",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Access to essential payment integrations for seamless transactions",
+      "Basic financial insights to help you make informed decisions",
+      "Explore BankUI’s core features with no cost to get started",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    description:
+      "Advanced financial analytics, priority support, and premium payment integrations",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Advanced financial analytics to optimize your business strategies",
+      "Comprehensive analytics dashboard to monitor key performance indicators",
+      "Priority support to resolve issues swiftly and keep your operations smooth",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description:
+      "Tailored payment solutions, advanced analytics, and dedicated enterprise support",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Custom payment solutions designed to meet the unique needs of your business",
+      "Advanced analytics for real-time financial insights and business optimization",
+      "Dedicated account manager providing personalized support for large-scale operations",
     ],
   },
 ];
@@ -200,50 +202,34 @@ export const testimonials = [
   {
     id: "0",
     name: "Jessica Saunders",
-    role: "Globalnomads",
+    role: "Global Financial Solutions",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "BankUI's support is exceptional! They provide us with real-time insights and quick resolutions, keeping our operations smooth.",
   },
   {
     id: "1",
     name: "Mark Erixon",
-    role: "Vid capital intl",
+    role: "Vid Capital International",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "At first, we hesitated, but now BankUI is an essential part of our financial operations. It has revolutionized the way we scale our solutions.",
   },
   {
     id: "2",
     name: "Melanie Hurst",
-    role: "Cyberleap",
+    role: "Cyberleap Financial",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "Integrating BankUI was seamless. It simplified our transaction management and gave us valuable financial insights every day.",
   },
   {
     id: "3",
     name: "Alicia Barker",
-    role: "Cyberleap",
+    role: "Cyberleap Financial",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
-  },
-  {
-    id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
-    comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
-  },
-  {
-    id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
-    comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "The analytics feature is like having a trusted financial advisor. It has been crucial in steering our business decisions with confidence.",
   },
 ];
 
@@ -440,7 +426,7 @@ export const links = [
   },
 ];
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With advanced automation and robust security, BankUI provides the ideal solution for fintech teams aiming to optimize workflows and enhance performance.";
 
 export const collabContent = [
   {
@@ -450,18 +436,18 @@ export const collabContent = [
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Advanced Automation",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Robust Security",
   },
 ];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+export const services = [
+  "AI payments",
+  "Financial analytics",
+  "System integration",
 ];
 
 export const socials = [

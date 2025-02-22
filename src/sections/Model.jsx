@@ -37,7 +37,7 @@ const Model = () => {
         {" "}
         {/* Aligned h3 and image on the same line */}
         <h3 className="text-5xl font-bold text-white px-4 mt-16">
-          Choose your favorite <span className="text-[#8C3BFF]"> COLOR</span>
+          Choose your <span className="text-[#8C3BFF]"> personality</span>
         </h3>
         {/* <img src="/images/secure.svg" className="w-16 h-16 ml-2 mt-16" />{" "} */}
         {/* Added margin-left for spacing */}

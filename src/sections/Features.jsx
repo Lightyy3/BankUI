@@ -1,26 +1,59 @@
-import { LucidePenTool, LucideBox, LucidePaintBucket } from "lucide-react";
+/* eslint-disable react/jsx-no-undef */
+import {
+  // LucidePenTool,
+  // LucideBox,
+  // LucidePaintBucket,
+  LucideCreditCard,
+  LucideLock,
+  LucideRefreshCw,
+  LucideTrendingUp,
+  LucideShieldAlert,
+  LucideDollarSign,
+} from "lucide-react";
 
 const FeatureSection = () => {
   const features = [
     {
-      icon: <LucidePenTool size={32} className="text-white" />,
-      title: "800+ Design Resources",
+      icon: <LucideDollarSign size={32} className="text-white" />,
+      title: "Secure Payment Solutions",
       description:
-        "Hundreds of component examples for all your website needs that meet accessibility criteria.",
-      // backgroundUrl: "./src/assets/file02.svg",
-      imageUrl: "./src/assets/file02.svg",
+        "A wide range of secure payment integrations that ensure smooth and compliant transactions for your fintech products.",
+      imageUrl: "./src/assets/payment.svg",
     },
     {
-      icon: <LucideBox size={32} className="text-white" />,
-      title: "New Products Daily",
+      icon: <LucideTrendingUp size={32} className="text-white" />,
+      title: "Real-Time Financial Insights",
       description:
-        "Hundreds of component examples for all your website needs that meet accessibility criteria.",
+        "Access real-time analytics and reports to drive informed financial decisions and stay ahead in the market.",
+      imageUrl: "./src/assets/insights.svg",
     },
     {
-      icon: <LucidePaintBucket size={32} className="text-white" />,
-      title: "Dark Mode",
+      icon: <LucideShieldAlert size={32} className="text-white" />,
+      title: "Enhanced Security Measures",
       description:
-        "All components include a dark variant that lets you style your site differently when dark mode is enabled.",
+        "Built-in security features that ensure the protection of sensitive financial data, meeting the highest compliance standards.",
+      imageUrl: "./src/assets/security.svg",
+    },
+    {
+      icon: <LucideCreditCard size={32} className="text-white" />,
+      title: "Global Payment Solutions",
+      description:
+        "Seamlessly integrate global payment gateways for fast and secure transactions across borders.",
+      imageUrl: "./src/assets/payment.svg",
+    },
+    {
+      icon: <LucideLock size={32} className="text-white" />,
+      title: "Advanced Security Features",
+      description:
+        "State-of-the-art encryption and compliance tools that ensure your fintech products stay secure and protected.",
+      imageUrl: "./src/assets/security.svg",
+    },
+    {
+      icon: <LucideRefreshCw size={32} className="text-white" />,
+      title: "Real-time Updates",
+      description:
+        "Instant transaction processing and real-time data synchronization to keep your financial operations running smoothly.",
+      imageUrl: "./src/assets/updates.svg",
     },
   ];
 

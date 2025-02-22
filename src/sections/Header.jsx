@@ -11,15 +11,15 @@ const Header = () => {
         </div>
 
         {/* Navigation Links */}
-        <nav className="hidden md:flex space-x-8 uppercase">
+        <nav className="hidden md:flex space-x-8 ">
           <a href="/about" className="hover:text-[#8C3BFF]">
             About us
           </a>
-          <a href="/blogs" className="hover:text-[#8C3BFF]">
+          {/* <a href="/blogs" className="hover:text-[#8C3BFF]">
             Blogs
-          </a>
+          </a> */}
           <a href="/faq" className="hover:text-[#8C3BFF]">
-            FAQ
+            Benefits
           </a>
           <a href="/contact" className="hover:text-[#8C3BFF]">
             Contact
