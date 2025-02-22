@@ -75,28 +75,6 @@ const FeatureSection = () => {
               {feature.title}
             </h3>
             <p className="text-sm opacity-80">{feature.description}</p>
-            {/* <a
-              className="inline-block px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md transition hover:bg-[#8C3BFF] hover:text-white mt-12  w-full mb-6 "
-              href={feature.price ? "/pricing" : "mailto:alex.dinu98@yahoo.com"}
-              // white={!!item.price}
-            >
-              {feature.price ? "Get started" : "Contact us"}
-            </a> */}
-            {/* <div className="relative group">
-              <div className="absolute inset-0 bg-[#0E0C15]">
-                <div className="absolute inset-0 opacity-0 transition-opacity group-hover:opacity-100">
-                  {feature.imageUrl && (
-                    <img
-                      src={feature.imageUrl}
-                      width={380}
-                      height={362}
-                      alt={feature.title}
-                      className="w-full h-full object-cover"
-                    />
-                  )}
-                </div>
-              </div>
-            </div> */}
           </div>
         ))}
       </div>

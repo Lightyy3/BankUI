@@ -7,7 +7,7 @@ const Faq = () => {
       <div className="max-w-[25rem]">
         <h2 className="h2 mb-4 md:mb-8">
           AI-powered solutions for{" "}
-          <span className="text-[#8C3BFF]">financial</span> collaboration
+          <span className="text-[#8C3BFF]">financial</span> freedom
         </h2>
 
         <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -34,11 +34,7 @@ const Faq = () => {
 
         <div className="relative left-1/2 flex w-[22rem] aspect-square  rounded-full -translate-x-1/2 scale:75 md:scale-100">
           <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-            <img
-              src="../images/15.svg"
-              className="w-80 h-80 object-cover"
-              alt="Scary robot"
-            />
+            <img src="../images/15.svg" className="w-80 h-80 object-cover" />
           </div>
 
           {/* <LeftCurve />
