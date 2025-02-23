@@ -8,8 +8,9 @@ const Download = () => {
     <section>
       <div className="container">
         <h1 className="mb-24 text-4xl font-bold">
-          BankUI unlocks the <span className="text-[#8C3BFF]">power</span> of
-          AI-driven financial solutions
+          BankUI unlocks the{" "}
+          <span className="text-[#8C3BFF] underline">power</span> of AI-driven
+          financial solutions
         </h1>
 
         <div className="relative">
@@ -76,7 +77,7 @@ const Download = () => {
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
-                  src="../images/13.svg"
+                  src="../images/17.svg"
                   className="w-80 h-80 object-cover"
                 />
               </div>

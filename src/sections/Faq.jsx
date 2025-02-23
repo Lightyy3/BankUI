@@ -34,11 +34,8 @@ const Faq = () => {
 
         <div className="relative left-1/2 flex w-[22rem] aspect-square  rounded-full -translate-x-1/2 scale:75 md:scale-100">
           <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-            <img src="../images/15.svg" className="w-80 h-80 object-cover" />
+            <img src="../images/16.svg" className="w-80 h-80 object-cover" />
           </div>
-
-          {/* <LeftCurve />
-            <RightCurve /> */}
         </div>
       </div>
     </div>
