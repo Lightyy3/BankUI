@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5"; // Import icons for hamburger and close
+// import Link from "next/link";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle the menu visibility on mobile
@@ -10,12 +11,12 @@ const Header = () => {
     <header className="bg-[#0A0427] text-white py-4 px-6 fixed top-0 w-full shadow-md z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src="/images/logo.svg" className="h-8" />
+        <a href="/" className="flex items-center space-x-2">
+          <img src="/images/logo.svg" className="h-8" alt="Logo" />
           <span className="text-3xl font-bold text-white">
             Bank <span className="text-[#8C3BFF]">UI</span>
           </span>
-        </div>
+        </a>
 
         {/* Hamburger Icon (Mobile) */}
         <div className="md:hidden flex items-center">
