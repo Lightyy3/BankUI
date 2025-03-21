@@ -9,7 +9,7 @@ const Pricing = () => {
   return (
     <div className="overflow-hidden bg-[#0A0427] mt-24" id="pricing">
       <div className="container relative z-2">
-        <h1 className="text-center text-2xl font-semibold text-white leading-tight md:text-4xl lg:text-5xl p-4 mb-24">
+        <h1 className="text-center text-4xl font-semibold text-white leading-tight  md:text-5xl p-4 mb-24">
           Get started with <span className="text-[#8C3BFF]">BankUI</span> – One
           payment, unlimited possibilities.
         </h1>
@@ -21,7 +21,9 @@ const Pricing = () => {
                 key={item.id}
                 className="w-[19rem] max-lg:w-full h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
               >
-                <h4 className="h4 mb-4 text-[#8C3BFF]">{item.title}</h4>
+                <h4 className="h4 mb-4 text-[#8C3BFF] text-center">
+                  {item.title}
+                </h4>
 
                 <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
                   {item.description}
