@@ -8,6 +8,7 @@ import Download from "./sections/Download.jsx";
 import Footer from "./sections/Footer.jsx";
 import Model from "./sections/Model.jsx";
 import Demo from "./sections/Demo.jsx";
+import CurrencyConverter from "./sections/Test.jsx";
 
 const App = () => {
   return (
@@ -18,9 +19,11 @@ const App = () => {
       <Model />
       <Pricing />
       <Faq />
+      <CurrencyConverter />
       <Testimonials />
       <Download />
       <Demo />
+      {/* <CurrencyConverter /> */}
       <Footer />
     </main>
   );

@@ -28,6 +28,21 @@
   input {
     @apply tracking-[-0.03em];
   }
+  @layer components {
+    .slick-dots li button:before {
+      color: white !important; /* Make dots white */
+      font-size: 18px !important; /* Make dots bigger */
+    }
+
+    .slick-dots li.slick-active button:before {
+      color: #8c3bff !important; /* Make the active dot purple */
+      font-size: 20px !important; /* Slightly increase size of active dot */
+    }
+
+    .slick-dots {
+      bottom: 10px; /* Position dots lower */
+    }
+  }
 }
 
 @layer utilities {
