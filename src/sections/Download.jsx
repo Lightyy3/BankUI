@@ -7,7 +7,7 @@ const Download = () => {
   return (
     <section>
       <div className="container">
-        <h1 className="mb-24 text-4xl font-bold">
+        <h1 className="mb-24 text-4xl font-bold text-center mx-auto">
           BankUI unlocks the{" "}
           <span className="text-[#8C3BFF] underline">power</span> of AI-driven
           financial solutions

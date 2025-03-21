@@ -54,8 +54,8 @@ const CurrencyConverter = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-12 pt-24">
-      <h1 className=" font-semibold mb-4 h2 text-[#8C3BFF]">
+    <div className="max-w-3xl mx-auto container p-12 pt-24">
+      <h1 className="font-semibold mb-4 h2 mx-auto text-[#8C3BFF] text-center sm:text-left">
         Currency Exchange
       </h1>
 

@@ -65,16 +65,17 @@ const Demo = () => {
     <section className="mt-16 container">
       {/* Search */}
       <div className="flex flex-col w-full gap-2">
-        <h2 className="h2 mb-4 md:mb-8">
-          Explore the capabilities of our AI by providing a link{" "}
-          <h3>
+        <h2 className="text-center md:h2 mb-4 md:mb-8 mx-auto text-3xl font-bold">
+          Explore the capabilities of our AI by providing a link
+          <h3 className="text-center">
             <span className="text-[#8C3BFF]">
               and receive a concise summary in a blink of an eye.
             </span>
           </h3>
         </h2>
+
         <form
-          className="relative flex items-center   rounded-lg shadow-lg"
+          className="relative flex items-center justify-center rounded-lg shadow-lg pl-8"
           onSubmit={handleSubmit}
         >
           {/* Link Icon */}
@@ -92,7 +93,7 @@ const Demo = () => {
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             onKeyDown={handleKeyDown}
             required
-            className="w-full pl-14 pr-12 py-4 text-lg text-black rounded-lg focus:outline-none ring-8 ring-[#8C3BFF] focus:ring-black transition duration-300"
+            className="w-full pl-14 pr-12 py-4 text-lg mx-auto text-black rounded-lg focus:outline-none ring-8 ring-[#8C3BFF] focus:ring-black transition duration-300"
           />
 
           {/* Submit Button */}
@@ -137,7 +138,7 @@ const Demo = () => {
       </div>
 
       {/* Display Result */}
-      <div className="my-10 max-w-full flex justify-center items-center">
+      <div className="my-10 max-w-full flex justify-center items-center mx-auto">
         {isFetching ? (
           <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
         ) : error ? (
@@ -151,7 +152,7 @@ const Demo = () => {
         ) : (
           article.summary && (
             <div className="flex flex-col gap-3">
-              <h2 className="font-satoshi font-bold text-[#8C3BFF] text-xl">
+              <h2 className="font-satoshi font-bold text-[#8C3BFF] text-xl mx-auto">
                 Article <span className="blue_gradient">Summary</span>
               </h2>
               <div className="summary_box">

@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <section className="relative z-2 py-24 md:py-28 lg:py-40  bg-[#0A0427]">
       <div className="container block lg:flex">
-        <div className=" relative z-2 mr-20 flex-300 ">
+        <div className=" relative z-2 mr-20 flex-300 justify-center mx-auto text-center">
           <p className="small-2 mb-5 uppercase text-white max-md:mb-2.5">
             Trusted by Industry Leaders
           </p>
