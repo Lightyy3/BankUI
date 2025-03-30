@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5"; // Import icons for hamburger and close
 // import Link from "next/link";
+import { UserButton } from "@clerk/clerk-react";
+import { SignedIn, SignedOut, SignInButton } from "@clerk/clerk-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle the menu visibility on mobile
@@ -44,43 +46,58 @@ const Header = () => {
 
         {/* Login & Join Us Buttons (Desktop) */}
         <div className="hidden md:flex items-center space-x-6">
-          <a href="/login" className="hover:text-[#8C3BFF]">
+          {/* <a href="/login" className="hover:text-[#8C3BFF]">
             LOGIN
-          </a>
-          <a
-            href="/join"
-            className="inline-block px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md hover:bg-[#8C3BFF] hover:text-white z-20 transition"
-          >
-            JOIN US
-          </a>
-        </div>
-      </div>
-
-      {/* Mobile Menu (Responsive) */}
-      {isMenuOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-6 mt-6 bg-[#0A0427] p-6">
-          <a href="/about" className="hover:text-[#8C3BFF]">
-            About us
-          </a>
-          <a href="/faq" className="hover:text-[#8C3BFF]">
-            Benefits
-          </a>
-          <a href="/contact" className="hover:text-[#8C3BFF]">
-            Contact
-          </a>
-
-          {/* Login & Join Us Buttons (Mobile) */}
-          <div className="flex flex-col items-center space-y-4 mt-6">
-            <a href="/login" className="hover:text-[#8C3BFF]">
-              LOGIN
-            </a>
+          </a> */}
+          <SignedOut>
+            <SignInButton className="inline-block px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md hover:bg-[#8C3BFF] hover:text-white z-20 transition" />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
             <a
               href="/join"
               className="inline-block px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md hover:bg-[#8C3BFF] hover:text-white z-20 transition"
             >
               JOIN US
             </a>
-          </div>
+          </SignedIn>
+          {/* <a
+            href="/join"
+            className="inline-block px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md hover:bg-[#8C3BFF] hover:text-white z-20 transition"
+          >
+            JOIN US
+          </a> */}
+        </div>
+      </div>
+
+      {/* Mobile Menu (Responsive) */}
+      {isMenuOpen && (
+        <div className="md:hidden flex flex-col items-center space-y-6 mt-6 bg-[#0A0427] p-6">
+          <SignedOut>
+            <SignInButton className="inline-block px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md hover:bg-[#8C3BFF] hover:text-white z-20 transition" />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+            <a href="/about" className="hover:text-[#8C3BFF]">
+              About us
+            </a>
+            <a href="/faq" className="hover:text-[#8C3BFF]">
+              Benefits
+            </a>
+            <a href="/contact" className="hover:text-[#8C3BFF]">
+              Contact
+            </a>
+
+            {/* Login & Join Us Buttons (Mobile) */}
+            <div className="flex flex-col items-center space-y-4 mt-6">
+              <a
+                href="/join"
+                className="inline-block px-6 py-3 border-2 border-[#8C3BFF] text-[#8C3BFF] font-semibold rounded-md hover:bg-[#8C3BFF] hover:text-white z-20 transition"
+              >
+                JOIN US
+              </a>
+            </div>
+          </SignedIn>
         </div>
       )}
     </header>

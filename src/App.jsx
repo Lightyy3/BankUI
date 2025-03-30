@@ -9,6 +9,12 @@ import Footer from "./sections/Footer.jsx";
 import Model from "./sections/Model.jsx";
 import Demo from "./sections/Demo.jsx";
 import CurrencyConverter from "./sections/Test.jsx";
+// import {
+//   SignedIn,
+//   SignedOut,
+//   SignInButton,
+//   UserButton,
+// } from "@clerk/clerk-react";
 
 const App = () => {
   return (

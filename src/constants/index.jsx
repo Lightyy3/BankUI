@@ -161,32 +161,6 @@ export const Web = () => {
   );
 };
 
-// export const links = [
-//   {
-//     id: "0",
-//     title: "Ios",
-//     icon: <Ios />,
-//     url: "#",
-//   },
-//   {
-//     id: "1",
-//     title: "Android",
-//     icon: <Android />,
-//     url: "#",
-//   },
-//   {
-//     id: "2",
-//     title: "Windows",
-//     icon: <Windows />,
-//     url: "#",
-//   },
-//   {
-//     id: "3",
-//     title: "Web",
-//     icon: <Web />,
-//     url: "#",
-//   },
-// ];
 export const collabText =
   "With advanced automation and robust security, BankUI provides the ideal solution for fintech teams aiming to optimize workflows and enhance performance.";
 
