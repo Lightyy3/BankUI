@@ -50,7 +50,7 @@ export const testimonials = [
   },
   {
     id: "1",
-    name: "Mark Erixon",
+    name: "Andrew Jonas",
     role: "Vid Capital International",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
