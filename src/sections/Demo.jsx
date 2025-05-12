@@ -75,17 +75,10 @@ const Demo = () => {
         </h2>
 
         <form
-          className="relative flex items-center justify-center rounded-lg shadow-lg pl-8"
+          className="relative flex items-center justify-center rounded-lg shadow-lg pl-8 mx-auto"
           onSubmit={handleSubmit}
+          style={{ maxWidth: "600px" }} // Optional: to restrict the width of the form
         >
-          {/* Link Icon */}
-          {/* <img
-            src={linkIcon}
-            alt="link-icon"
-            className="absolute left-4  w-6 h-6"
-          /> */}
-
-          {/* Input Field */}
           <input
             type="url"
             placeholder="Paste the article link"
@@ -93,16 +86,16 @@ const Demo = () => {
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             onKeyDown={handleKeyDown}
             required
-            className="w-full pl-14 pr-12 py-4 text-lg mx-auto text-black rounded-lg focus:outline-none ring-8 ring-[#8C3BFF] focus:ring-black transition duration-300"
+            className="w-full pl-14 pr-20 py-4 text-lg text-black rounded-lg focus:outline-none ring-8 ring-[#8C3BFF] focus:ring-black transition duration-300"
           />
 
           {/* Submit Button */}
           <button
             type="submit"
-            className="absolute right-16 text-6xl text-[#8C3BFF]  focus:outline-none transition duration-300 p-8 bg-transparent rounded-full shadow-lg hover:shadow-xl z-10"
-            style={{ position: "relative" }}
+            className="absolute right-4 text-6xl text-[#8C3BFF] focus:outline-none transition duration-300 p-8 bg-transparent rounded-full shadow-lg hover:shadow-xl z-10"
+            style={{ top: "50%", transform: "translateY(-50%)" }} // Center vertically within the form
           >
-            <p className="h-32 w-32 flex items-center justify-center text-5xl">
+            <p className="flex items-center justify-center text-5xl mb-2 z-10">
               ↵
             </p>
           </button>
